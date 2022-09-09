@@ -1,0 +1,39 @@
+.game {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(228, 148, 102);
+  flex-direction: column;
+}
+.start_btn {
+  width: 200px;
+  height: 35px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  color: black;
+  outline: none;
+  background: rgb(132, 181, 201);
+  text-shadow: 2px -2px 1px #177cbe;
+  font-size: 22px;
+  border: none;
+  border-radius: 15px;
+}
+
+.start_btn:hover {
+  background-color: rgb(128, 113, 95);
+  text-shadow: 2px -2px 1px #da6369;
+  transition: 1.5s all ease;
+}
+
+.info {
+  color: rgb(0, 0, 0);
+  text-shadow: 2px -2px 1px #177cbe;
+  font-weight: 800;
+  font-size: 22px;
+}
+
+.info:hover {
+  text-shadow: 2px -2px 1px #da6369;
+}
